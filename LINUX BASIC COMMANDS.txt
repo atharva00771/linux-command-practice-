@@ -1,0 +1,61 @@
+LINUX BASIC COMMANDS
+
+1. "pwd" – Shows the current working directory.
+
+2. "ls" – Lists files and directories.
+
+3. "ls -l" – Shows detailed file information.
+
+4. "ls -a" – Shows hidden files and directories.
+
+5. "ls -lh" – Shows file sizes in readable format.
+
+6. "cd" – Changes the current directory.
+
+7. "cd .." – Moves to the parent directory.
+
+8. "cd ~" – Moves to the home directory.
+
+9. "cd /" – Moves to the root directory.
+
+10. "clear" – Clears the terminal screen.
+
+11. "mkdir" – Creates a new directory.
+
+12. "rmdir" – Removes an empty directory.
+
+13. "touch" – Creates a new empty file.
+
+14. "cat" – Displays file content.
+
+15. "cp" – Copies files and directories.
+
+16. "mv" – Moves or renames files and directories.
+
+17. "rm" – Removes files.
+
+18. "rm -r" – Removes directories and their contents.
+
+19. "head" – Displays the first 10 lines of a file.
+
+20. "tail" – Displays the last 10 lines of a file.
+
+21. "wc" – Counts lines, words and characters.
+
+22. "whoami" – Displays the current username.
+
+23. "id" – Displays user ID and group ID information.
+
+24. "date" – Displays the current date and time.
+
+25. "cal" – Displays the calendar.
+
+26. "history" – Displays previously executed commands.
+
+27. "echo" – Displays text on the terminal.
+
+28. "man" – Displays the manual of a command.
+
+29. "which" – Shows the location of a command.
+
+30. "uname -a" – Displays system information.
