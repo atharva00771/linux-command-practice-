@@ -1,65 +1,104 @@
-# Linux Command Practice 🐧
+# 🐧 Linux Learning Journey
 
-## About This Repository
+\<p align="center">   \<img src="[https://img.shields.io/badge/Linux-Learning-yellow?style=for-the-badge&logo=linux&logoColor=black](https://img.shields.io/badge/Linux-Learning-yellow?style=for-the-badge\&logo=linux\&logoColor=black)" />   \<img src="[https://img.shields.io/badge/Level-Beginner-green?style=for-the-badge](https://img.shields.io/badge/Level-Beginner-green?style=for-the-badge)" />   \<img src="[https://img.shields.io/badge/Hands--On-Practice-blue?style=for-the-badge](https://img.shields.io/badge/Hands--On-Practice-blue?style=for-the-badge)" /> \</p>
 
-This repository contains my Linux command-line practice as part of my Cloud Engineering learning journey.
+## 📌 About This Repository
 
-I am learning Linux fundamentals and practicing commands using the Ubuntu terminal.
+This repository documents my Linux learning journey. I am learning Linux commands, file management, permissions, user administration, and system operations through hands-on practice.
 
-## Topics Covered
+My goal is to build strong Linux fundamentals and use these skills in real-world environments, especially in Cloud Computing and DevOps.
 
-### 1. Basic Linux Commands
+## 🛠️ Topics Covered
+
+### 📂 File & Directory Management
+
 - `pwd` – Print current working directory
 - `ls` – List files and directories
 - `cd` – Change directory
-- `clear` – Clear terminal screen
-- `whoami` – Display current username
-
-### 2. File and Directory Management
-- `mkdir` – Create directory
-- `touch` – Create file
-- `cat` – Display file content
-- `cp` – Copy files
+- `mkdir` – Create directories
+- `touch` – Create files
+- `cp` – Copy files and directories
 - `mv` – Move or rename files
 - `rm` – Remove files
-- `rmdir` – Remove empty directory
+- `rmdir` – Remove empty directories
 
-### 3. File Permissions
+### 📄 File Viewing & Searching
+
+- `cat` – Display file contents
+- `less` – Read files page by page
+- `head` – Display first lines
+- `tail` – Display last lines
+- `find` – Search files and directories
+
+### 🔐 File Permissions & Ownership
+
 - `chmod` – Change file permissions
 - `chown` – Change file ownership
-- `ls -l` – View file permissions
+- `chgrp` – Change group ownership
+- Understanding Owner, Group & Others
+- Read (r), Write (w) & Execute (x) permissions
 
-### 4. User Management
-- `su` – Switch user
-- `su - aditya` – Switch to another user
+### 👤 User Management
+
 - `whoami` – Check current user
-- `exit` – Exit current user session
+- `id` – Display user and group information
+- `useradd` – Create users
+- `usermod` – Modify users
+- `userdel` – Delete users
+- `passwd` – Change passwords
+- `su` – Switch user
+- `sudo` – Execute commands with elevated privileges
 
-### 5. Process Management
+### ⚙️ Process Management
+
 - `ps` – Display running processes
-- `ps aux` – Display all running processes
-- `top` – Monitor system processes
-- `kill` – Terminate a process
-
-### 6. Job Management
+- `top` – Monitor processes
+- `kill` – Terminate processes
 - `jobs` – Display background jobs
-- `bg` – Run a job in the background
-- `fg` – Bring a job to the foreground
+- `bg` – Run jobs in background
+- `fg` – Bring jobs to foreground
 
-## Tools Used
-- Ubuntu Linux
-- Linux Terminal
-- WSL (Windows Subsystem for Linux)
+### 📁 Linux Directory Structure
 
-## Learning Goals
-- Improve Linux command-line skills
-- Understand file permissions and user management
-- Learn process management
-- Build a strong foundation for Cloud Engineering and DevOps
+- `/` – Root directory
+- `/home` – User home directories
+- `/etc` – Configuration files
+- `/var` – Variable data and logs
+- `/tmp` – Temporary files
+- `/bin` – Essential commands
+- `/usr` – User applications and utilities
 
-## Author
-**Atharva Avhad**
+## 💻 Hands-On Practice
 
-B.Tech Artificial Intelligence and Data Science Student
+- Created and managed files and directories.
+- Practiced moving and copying files between directories.
+- Created and modified Linux users.
+- Changed file permissions using `chmod`.
+- Changed ownership using `chown`.
+- Practiced searching files using `find`.
+- Read files using `less`.
+- Managed processes and background jobs.
 
-Learning Linux | Cloud Engineering | AWS
+## 🎯 Learning Goals
+
+- Build strong Linux fundamentals.
+- Understand Linux users and permissions.
+- Learn system administration basics.
+- Practice Linux in real-world scenarios.
+- Prepare for Cloud and DevOps tools.
+
+## 📈 Progress
+
+**Currently Learning:** Linux Fundamentals & System Administration
+
+**Next Topics:**
+
+- Networking Commands
+- SSH
+- Package Management
+- Disk Management
+- Bash Scripting
+
+---
+
+> Learning Linux one command at a time. 🚀
